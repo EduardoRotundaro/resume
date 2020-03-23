@@ -1,7 +1,6 @@
 {
   "name": "resume",
   "author": "Eduardo Henrique Rotundaro",
-  "homepage": "https://github.com/EduardoRotundaro/resume#readme",
   "version": "0.1.0",
   "description": "A personal resume.",
   "private": true,
