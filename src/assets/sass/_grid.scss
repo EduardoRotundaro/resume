@@ -1,0 +1,232 @@
+.block {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        &__c{
+            position: relative;
+            width: 100%;  
+            &--auto{ @include column-auto; }
+            &--1{ @include column-1; }
+            &--2{ @include column-2; }
+            &--3{ @include column-3; }
+            &--4{ @include column-4; }
+            &--5{ @include column-5; }
+            &--6{ @include column-6; }
+            &--7{ @include column-7; }
+            &--8{ @include column-8; }
+            &--9{ @include column-9; }
+            &--10{ @include column-10; }
+            &--sm{
+                &-auto{
+                    @media (min-width: $small-devices) { @include column-auto; }
+                }
+                &-1{
+                    @media (min-width: $small-devices) { @include column-1; }
+                }
+                &-2{
+                    @media (min-width: $small-devices) { @include column-2; }
+                }
+                &-3{
+                    @media (min-width: $small-devices) { @include column-3; }
+                }
+                &-4{
+                    @media (min-width: $small-devices) { @include column-4; }
+                }
+                &-5{
+                    @media (min-width: $small-devices) { @include column-5; }
+                }
+                &-6{
+                    @media (min-width: $small-devices) { @include column-6; }
+                }
+                &-7{
+                    @media (min-width: $small-devices) { @include column-7; }
+                }
+                &-8{
+                    @media (min-width: $small-devices) { @include column-8; }
+                }
+                &-9{
+                    @media (min-width: $small-devices) { @include column-9; }
+                }
+                &-10{
+                    @media (min-width: $small-devices) { @include column-10; }
+                }
+            }
+            &--md{
+                &-auto{
+                    @media (min-width: $medium-devices) { @include column-auto; }
+                }
+                &-1{
+                    @media (min-width: $medium-devices) { @include column-1; }
+                }
+                &-2{
+                    @media (min-width: $medium-devices) { @include column-2; }
+                }
+                &-3{
+                    @media (min-width: $medium-devices) { @include column-3; }
+                }
+                &-4{
+                    @media (min-width: $medium-devices) { @include column-4; }
+                }
+                &-5{
+                    @media (min-width: $medium-devices) { @include column-5; }
+                }
+                &-6{
+                    @media (min-width: $medium-devices) { @include column-6; }
+                }
+                &-7{
+                    @media (min-width: $medium-devices) { @include column-7; }
+                }
+                &-8{
+                    @media (min-width: $medium-devices) { @include column-8; }
+                }
+                &-9{
+                    @media (min-width: $medium-devices) { @include column-9; }
+                }
+                &-10{
+                    @media (min-width: $medium-devices) { @include column-10; }
+                }
+            }
+            &--lg{
+                &-auto{
+                    @media (min-width: $large-devices) { @include column-auto; }
+                }
+                &-1{
+                    @media (min-width: $large-devices) { @include column-1; }
+                }
+                &-2{
+                    @media (min-width: $large-devices) { @include column-2; }
+                }
+                &-3{
+                    @media (min-width: $large-devices) { @include column-3; }
+                }
+                &-4{
+                    @media (min-width: $large-devices) { @include column-4; }
+                }
+                &-5{
+                    @media (min-width: $large-devices) { @include column-5; }
+                }
+                &-6{
+                    @media (min-width: $large-devices) { @include column-6; }
+                }
+                &-7{
+                    @media (min-width: $large-devices) { @include column-7; }
+                }
+                &-8{
+                    @media (min-width: $large-devices) { @include column-8; }
+                }
+                &-9{
+                    @media (min-width: $large-devices) { @include column-9; }
+                }
+                &-10{
+                    @media (min-width: $large-devices) { @include column-10; }
+                }
+            }
+            &--xl{
+                &-auto{
+                    @media (min-width: $extra-large-devices) { @include column-auto; }
+                }
+                &-1{
+                    @media (min-width: $extra-large-devices) { @include column-1; }
+                }
+                &-2{
+                    @media (min-width: $extra-large-devices) { @include column-2; }
+                }
+                &-3{
+                    @media (min-width: $extra-large-devices) { @include column-3; }
+                }
+                &-4{
+                    @media (min-width: $extra-large-devices) { @include column-4; }
+                }
+                &-5{
+                    @media (min-width: $extra-large-devices) { @include column-5; }
+                }
+                &-6{
+                    @media (min-width: $extra-large-devices) { @include column-6; }
+                }
+                &-7{
+                    @media (min-width: $extra-large-devices) { @include column-7; }
+                }
+                &-8{
+                    @media (min-width: $extra-large-devices) { @include column-8; }
+                }
+                &-9{
+                    @media (min-width: $extra-large-devices) { @include column-9; }
+                }
+                &-10{
+                    @media (min-width: $extra-large-devices) { @include column-10; }
+                }
+            }
+            &--hd{
+                &-auto{
+                    @media (min-width: $hd-devices) { @include column-auto; }
+                }
+                &-1{
+                    @media (min-width: $hd-devices) { @include column-1; }
+                }
+                &-2{
+                    @media (min-width: $hd-devices) { @include column-2; }
+                }
+                &-3{
+                    @media (min-width: $hd-devices) { @include column-3; }
+                }
+                &-4{
+                    @media (min-width: $hd-devices) { @include column-4; }
+                }
+                &-5{
+                    @media (min-width: $hd-devices) { @include column-5; }
+                }
+                &-6{
+                    @media (min-width: $hd-devices) { @include column-6; }
+                }
+                &-7{
+                    @media (min-width: $hd-devices) { @include column-7; }
+                }
+                &-8{
+                    @media (min-width: $hd-devices) { @include column-8; }
+                }
+                &-9{
+                    @media (min-width: $hd-devices) { @include column-9; }
+                }
+                &-10{
+                    @media (min-width: $hd-devices) { @include column-10; }
+                }
+            }
+        }
+    }
+}
+
+.align{
+    &-h{
+        &-start{
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+        &-end{
+            -ms-flex-pack: end;
+            justify-content: flex-end;
+        }
+        &-center{
+            -ms-flex-pack: center;
+            justify-content: center;
+        }
+    }
+    &-v{
+        &-start{
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
+        &-end{
+            -ms-flex-align: end;
+            align-items: flex-end;
+        }
+        &-center{
+            -ms-flex-align: center;
+            align-items: center;
+        }
+    }            
+}
