@@ -7,7 +7,7 @@
         display: flex;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        &__c{
+        &__column{
             position: relative;
             width: 100%;  
             &--auto{ @include column-auto; }
@@ -201,7 +201,7 @@
 }
 
 .align{
-    &-h{
+    &-horizontal{
         &-start{
             -ms-flex-pack: start;
             justify-content: flex-start;
@@ -215,7 +215,7 @@
             justify-content: center;
         }
     }
-    &-v{
+    &-vertical{
         &-start{
             -ms-flex-align: start;
             align-items: flex-start;
