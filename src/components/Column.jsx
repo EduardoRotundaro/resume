@@ -28,7 +28,7 @@ Column.propTypes = {
 };
 
 Column.defaultProps = {
-    xs: 12,
+    xs: 10,
 };
 
 export default Column;

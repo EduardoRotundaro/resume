@@ -20,6 +20,7 @@ body {
     background: $primary-color;
     -webkit-print-color-adjust: exact;
     min-height: 100vh;
+    height: 100%;
     color: $light-color;
     text-align: center;
     &__photo{
@@ -42,4 +43,12 @@ body {
     // }
     // &__about{
     // }
+}
+
+.section{
+    &__title{
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
 }

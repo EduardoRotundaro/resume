@@ -12,10 +12,10 @@ ReactDOM.render(
         <main>
             <div className="block">
                 <Row>
-                    <Column xl={3}>
+                    <Column xs={3} xl={3}>
                         <Header />
                     </Column>
-                    <Column xl={7}>
+                    <Column xs={7} xl={7}>
                         <Content />
                     </Column>
                 </Row>
