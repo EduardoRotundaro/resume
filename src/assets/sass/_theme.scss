@@ -15,3 +15,31 @@ body {
     padding: 0;
     -ms-overflow-style: scrollbar;
 }
+
+.header{
+    background: $primary-color;
+    -webkit-print-color-adjust: exact;
+    min-height: 100vh;
+    color: $light-color;
+    text-align: center;
+    &__photo{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    &__link{
+        color: $light-color;
+        text-decoration: none;
+        &:visited{
+            color: $light-color;
+        }
+    }
+    // &__name{
+    // }
+    // &__title{
+    // }
+    // &__about{
+    // }
+}
