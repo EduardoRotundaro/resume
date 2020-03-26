@@ -40,18 +40,32 @@ body {
             color: $light-color;
         }
     }
-    // &__name{
-    // }
-    // &__title{
-    // }
-    // &__about{
-    // }
+    &__name{
+        @include margin;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+    &__title{
+        @include margin-sm;
+        font-size: 1.4rem;
+    }
+    &__about{
+        @include margin-lg;
+    }
+    &__contacts{
+        @include margin;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        a, span{
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
 }
 
 .section{
     &__title{
         color: $primary-color;
         font-weight: bold;
-        font-size: 1.1rem;
     }
 }

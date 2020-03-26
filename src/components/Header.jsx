@@ -15,16 +15,18 @@ export default function Header() {
     function renderContacts() {
         return CONTACT.map(({name, ref, icon}) =>(
             <Column xs={10} key={icon}>
-                <If condition={ref}>
-                    <a href={ref} className="header__link" target="_blank" rel="noopener noreferrer">
-                        <i className={`fa fa-${icon}`}></i>&nbsp;{name}
-                    </a>
-                </If>
-                <If condition={!ref}>
-                    <span className="header__span">
-                        <i className={`fa fa-${icon}`}></i>&nbsp;{name}
-                    </span>
-                </If>
+                <div className="header__contacts">
+                    <If condition={ref}>
+                        <a href={ref} className="header__link" target="_blank" rel="noopener noreferrer">
+                            <i className={`fa fa-${icon}`}></i>&nbsp;{name}
+                        </a>
+                    </If>
+                    <If condition={!ref}>
+                        <span className="header__span">
+                            <i className={`fa fa-${icon}`}></i>&nbsp;{name}
+                        </span>
+                    </If>
+                </div>
             </Column>
         ));
     }
