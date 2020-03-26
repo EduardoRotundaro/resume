@@ -37,13 +37,13 @@ export default function Header() {
                 </Column>
             </Row>
             <Row>
-                <Column xs={10}>
+                <Column>
                     <div className="header__name">{NAME}</div>
                 </Column>
-                <Column xs={10}>
+                <Column>
                     <div className="header__title">{TITLE}</div>
                 </Column>
-                <Column xs={10}>
+                <Column>
                     <div className="header__about">{ABOUT}</div>
                 </Column>
             </Row>

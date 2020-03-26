@@ -64,3 +64,163 @@
     flex: 0 0 100%;
     max-width: 100%;
 }
+
+@mixin margin-sm {
+    margin: $sm-unity;
+}
+
+@mixin margin-sm-left {
+    margin-left: $sm-unity;
+}
+
+@mixin margin-sm-right {
+    margin-right: $sm-unity;
+}
+
+@mixin margin-sm-top {
+    margin-top: $sm-unity;
+}
+
+@mixin margin-sm-bottom {
+    margin-bottom: $sm-unity;
+}
+
+@mixin margin {
+    margin: $md-unity;
+}
+
+@mixin margin-left {
+    margin-left: $md-unity;
+}
+
+@mixin margin-right {
+    margin-right: $md-unity;
+}
+
+@mixin margin-top {
+    margin-top: $md-unity;
+}
+
+@mixin margin-bottom {
+    margin-bottom: $md-unity;
+}
+
+@mixin margin-lg {
+    margin: $lg-unity;
+}
+
+@mixin margin-lg-left {
+    margin-left: $lg-unity;
+}
+
+@mixin margin-lg-right {
+    margin-right: $lg-unity;
+}
+
+@mixin margin-lg-top {
+    margin-top: $lg-unity;
+}
+
+@mixin margin-lg-bottom {
+    margin-bottom: $lg-unity;
+}
+
+@mixin margin-xl {
+    margin: $xl-unity;
+}
+
+@mixin margin-xl-left {
+    margin-left: $xl-unity;
+}
+
+@mixin margin-xl-right {
+    margin-right: $xl-unity;
+}
+
+@mixin margin-xl-top {
+    margin-top: $xl-unity;
+}
+
+@mixin margin-xl-bottom {
+    margin-bottom: $xl-unity;
+}
+
+@mixin padding-sm {
+    padding: $sm-unity;
+}
+
+@mixin padding-sm-left {
+    padding-left: $sm-unity;
+}
+
+@mixin padding-sm-right {
+    padding-right: $sm-unity;
+}
+
+@mixin padding-sm-top {
+    padding-top: $sm-unity;
+}
+
+@mixin padding-sm-bottom {
+    padding-bottom: $sm-unity;
+}
+
+@mixin padding {
+    padding: $md-unity;
+}
+
+@mixin padding-left {
+    padding-left: $md-unity;
+}
+
+@mixin padding-right {
+    padding-right: $md-unity;
+}
+
+@mixin padding-top {
+    padding-top: $md-unity;
+}
+
+@mixin padding-bottom {
+    padding-bottom: $md-unity;
+}
+
+@mixin padding-lg {
+    padding: $lg-unity;
+}
+
+@mixin padding-lg-left {
+    padding-left: $lg-unity;
+}
+
+@mixin padding-lg-right {
+    padding-right: $lg-unity;
+}
+
+@mixin padding-lg-top {
+    padding-top: $lg-unity;
+}
+
+@mixin padding-lg-bottom {
+    padding-bottom: $lg-unity;
+}
+
+@mixin padding-xl {
+    padding: $xl-unity;
+}
+
+@mixin padding-xl-left {
+    padding-left: $xl-unity;
+}
+
+@mixin padding-xl-right {
+    padding-right: $xl-unity;
+}
+
+@mixin padding-xl-top {
+    padding-top: $xl-unity;
+}
+
+@mixin padding-xl-bottom {
+    padding-bottom: $xl-unity;
+}

@@ -31,12 +31,13 @@ export default function Content() {
     }
 
     function renderDataBoxes(arr) {
-        return arr.map(({title, subTitle, date, description}) => (
+        return arr.map(({title, subTitle, date, description}, index) => (
             <DataBox 
                 title={title} 
                 subTitle={subTitle} 
                 date={date} 
                 description={description}
+                key={`db_${index}`}
             />
         ));
     }

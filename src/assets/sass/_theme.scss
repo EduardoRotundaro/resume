@@ -14,6 +14,7 @@ body {
     margin: 0;
     padding: 0;
     -ms-overflow-style: scrollbar;
+    font-size: 14px;
 }
 
 .header{
@@ -24,11 +25,13 @@ body {
     color: $light-color;
     text-align: center;
     &__photo{
+        @include margin-lg;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
+        width: 50%;
     }
     &__link{
         color: $light-color;
