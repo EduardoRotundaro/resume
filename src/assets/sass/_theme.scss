@@ -64,8 +64,50 @@ body {
 }
 
 .section{
+    @include margin-left;
+    @include margin-right;
+    @include margin-lg-top;
+    @include margin-lg-bottom;
     &__title{
+        @include margin-sm-bottom;
         color: $primary-color;
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+}
+
+.information{
+    @include margin-xl-right;
+    &__title{
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+}
+
+.knowledge{
+    &__title{
+        @include margin-top;
+        font-weight: bold;
+    }
+    &__skills{
+        @include margin-bottom;
+        span{
+            @include padding-sm;
+            @include margin-right;
+            @include margin-bottom;
+            border-bottom: 2px solid $primary-color;
+            display: inline-block;
+        }
+    }
+}
+
+.data-box{
+    @include margin-bottom;
+    &__title{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    &__sub-title{
         font-weight: bold;
     }
 }

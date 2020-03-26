@@ -4,19 +4,18 @@ import Column from './Column';
 import If from './If';
 
 function DataBox({title, subTitle, date, description}) {
-    debugger
     return (
         <Column>
-            <div>
-                <div>{title}</div>
+            <div className="data-box">
+                <div className="data-box__title">{title}</div>
                 <If condition={subTitle}>
-                    <div>{subTitle}</div>
+                    <div className="data-box__sub-title">{subTitle}</div>
                 </If>
                 <If condition={date}>
-                    <div>{date}</div>
+                    <div className="data-box__date">{date}</div>
                 </If>
                 <If condition={description}>
-                    <div>{description}</div>
+                    <div className="data-box__description">{description}</div>
                 </If>
             </div>
         </Column>

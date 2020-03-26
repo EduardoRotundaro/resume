@@ -18,8 +18,10 @@ export default function Content() {
     function renderInfos() {
         return INFO.map(({name, data}, index) => (
             <Column xs={0} key={`info_${index}`}>
-                <div>{name}</div>
-                <div>{data}</div>
+                <div className="information">
+                    <div className="information__title">{name}</div>
+                    <div className="information__description">{data}</div>
+                </div>
             </Column>
         ));
     }
@@ -52,16 +54,20 @@ export default function Content() {
             <Section title={'Conhecimentos'}>
                 <Row>
                     <Column>
-                        <div>Setor</div>
+                        <div className="knowledge__title">Setor</div>
                     </Column>
                     <Column>
-                        {renderSkills(SKILLS.filter(s => s.type==='sector'))}
+                        <div className="knowledge__skills">
+                            {renderSkills(SKILLS.filter(s => s.type==='sector'))}
+                        </div>
                     </Column>
                     <Column>
-                        <div>Tecnologias</div>
+                        <div className="knowledge__title">Tecnologias</div>
                     </Column>
                     <Column>
-                        {renderSkills(SKILLS.filter(s => s.type==='tech'))}
+                        <div className="knowledge__skills">
+                            {renderSkills(SKILLS.filter(s => s.type==='tech'))}
+                        </div>
                     </Column>
                 </Row>
             </Section>
