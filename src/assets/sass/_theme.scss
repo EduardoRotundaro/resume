@@ -64,9 +64,8 @@ body {
 }
 
 .section{
-    @include margin-left;
+    @include margin-lg-left;
     @include margin-right;
-    @include margin-lg-top;
     @include margin-lg-bottom;
     &__title{
         @include margin-sm-bottom;
